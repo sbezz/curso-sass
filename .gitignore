@@ -1,2 +1,3 @@
+# Ignore docs files
 .idea
 .sass-cache
