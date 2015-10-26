@@ -1,0 +1,29 @@
+body{
+
+  font-size: 20px;
+}
+
+.box{
+  border: 1px solid;
+  padding: 20px;
+  margin: 20px auto;
+
+  color: #000080;
+  border-color: blue;
+
+  en{
+    font-weight: bold;
+  }
+}
+
+.vermelho{
+  @extend .box;
+  color: darkred;
+  border-color: red;
+}
+
+.laranja{
+  @extend .box;
+  color: darkorange;
+  border-color: orange;
+}

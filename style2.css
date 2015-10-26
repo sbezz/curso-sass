@@ -1,0 +1,21 @@
+body {
+  font-size: 20px; }
+
+.box, .vermelho, .laranja {
+  border: 1px solid;
+  padding: 20px;
+  margin: 20px auto;
+  color: #000080;
+  border-color: blue; }
+  .box en, .vermelho en, .laranja en {
+    font-weight: bold; }
+
+.vermelho {
+  color: darkred;
+  border-color: red; }
+
+.laranja {
+  color: darkorange;
+  border-color: orange; }
+
+/*# sourceMappingURL=style2.css.map */
