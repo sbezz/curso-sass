@@ -1,0 +1,19 @@
+body{
+
+  font-family: Verdanda, Arial, sans-serif;
+}
+
+p{
+  font-size: 14px;
+
+  a{
+    color: red;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
+
+#paragrafo {
+  color: green
+}
