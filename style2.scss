@@ -1,3 +1,5 @@
+$azul_var: blue;  //declarando a variavel
+
 body{
 
   font-size: 20px;
@@ -7,9 +9,11 @@ body{
   border: 1px solid;
   padding: 20px;
   margin: 20px auto;
-
-  color: #000080;
-  border-color: blue;
+  color: white;
+  $azul_var: blue !default; // se não existir a variavel declarada no inicio
+  //color: $azul_var;
+  border-color: $azul_var;
+  background-color: $azul_var;
 
   en{
     font-weight: bold;
